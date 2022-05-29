@@ -4,10 +4,10 @@
 
 # Site
 title: '柚一のblog'
-subtitle: '把你写进我世界里'
+subtitle: ''
 description: '柚一のblog,欢迎访问'
 keywords: 博客，柚一
-author: 李子木
+author: 柚一
 language: zh-CN
 timezone: ''
 
@@ -45,7 +45,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
@@ -105,3 +105,15 @@ deploy:
   type: git
   repo: root@www.lwpnet.cn:/var/repo/hexo.git
   branch: master
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+# APlayer
+# https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md
+aplayer:
+  meting: true
+  asset_inject: false
